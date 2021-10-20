@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: brorder-box;
+  font-family: Roboto Slab, sans-serif;
+
+}
+:root {
+  --primary-color: #102332;
+  --primary-color-darker: #0f446d;
+  --secondary-color: rgb(197, 165, 20)
+  --white: rgb(255, 255, 255)
+}
+
+body {
+    backgruond-color: var(--primary-color);
+}
+
+.header {
+  padding: 1.4rem;
+
+  background-color: var(--primary-color):
+  color: var(--white);
+
+}
+
+.header .logo{
+  front-size: 1.3rem;
+  display: inline;
+  margin-right:1.4rem;
+
+}
+
+.header .nav{ 
+  display: inline;
+}
+
+.nav ul {
+   display: inline;
+
+  list-style: none;
+  padding: 0;
+}
+
+.nav ul li {
+  display: inline;
+  margin: 0.9rem;
+}
+
+.main {
+   padding: 2rem;
+   background-colour: var(--white);
+}
+
+.main .section .title {
+  font-size: 1.5rem;
+  color: var(--primary-color-darer)
+  margin-bottom: 1.4rem;
+  text-transform: uppercase;
+  front-weight: 300;
+}
+
+.main .section p {
+  margin-bottom: 1rem;
+  line-height: 1.3rem;
+  color: #000000cc;
+  font-wieght: 300;
+}
+
+.main .subscribe-new-button {
+  background-color: transparent;
+  border: solid 2px var(--secondary-color);
+  width: 11.5rem;
+  padding: 0.8rem 1.4rem;
+  border-radius: 0.8rem;
+
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.main .section.post-to {
+  margin-bottom: 2rem
+}
+
+.main .follow-button {
+  display: inline-block;
+
+  border-radius: 0.8rem;
+  padding: 0.5rem 2rem;
+
+  color: var(--white);
+
+  font-weight: 800;
+  font-size: 1.2rem;
+
+  margin-right: 1.3rem;
+
+  box-shadow: 2px 2px 5px 0 #00000030;
+
+  .main strong {
+    color: var(--primary-color);
+}
+
+
+.footer {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 1.3rem;
+}
+
+.footer .title {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 0.8rem;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer li {
+  font-size: 0.9rem;
+  margin-top: 0.1rem;
+}
+
+.footer .popular-feature {
+  font-weight:600;
+}
+
+.footer .popular-sub-features {
+  padding-left: 1.3rem;
+}
+
+.footer .popular-sub-feature {
+  font-wieght: 400;
+}
