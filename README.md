@@ -1,2 +1,2 @@
-# Hoxton-Media-Dens-Mimini
+# Hoxton-Media-Denis-Mimini
 Created with CodeSandbox
